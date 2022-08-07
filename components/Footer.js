@@ -8,7 +8,7 @@ export const Contact = ({ title, description, buttons }) => {
 				<h1 className="text-primary fw-bold">{title}</h1>
 				<div className="px-sm-5">
 					<p>{description}</p>
-					<div className="">
+					<div className="text-left">
 						{buttons.map((value, index) => (
 							(value.isPrimary) ?
 								<Link key={index} href={value.link}>
@@ -34,12 +34,12 @@ export const Footer = () => {
 	return (
 		<footer className="bg-secondary text-center py-2 px-5">
 			<div className="container text-muted">
-				<small>&copy; 2021 {" "}
-					<Link href="https://github.com/hashirshoaeb">
-						<a>hashirshoaeb</a>
+				<small>&copy; 2022 {" "}
+					<Link href="https://github.com/michaelxiao7">
+						<a>michaelxiao7</a>
 					</Link>
 					. Open sourced with love under {" "}
-					<Link href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">
+					<Link href="https://github.com/michaelxiao7/portfolio/blob/main/LICENSE">
 						<a>MIT</a>
 					</Link>
 					{" "} License

@@ -18,8 +18,8 @@
 // $inverted-font: #FFFFFF;
 
 // bootstrap overrides 
-$primary: #365B6D ;
-$secondary: #F7F7F7;
+$primary: #45A29E ;
+$secondary: #EDEDED;
 $light: #FFFFFF;
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
@@ -128,7 +128,6 @@ a {
 font-family: $font-family-sans-serif;
 color: $primary;
 }
-
 
 .card-work {
 	transition: box-shadow .3s;

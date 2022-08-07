@@ -10,9 +10,9 @@ export const Intro = ({ title, description, image, buttons }) => {
 			<div className="container">
 				<div className=" row align-items-center">
 					<div className="col-sm-6">
-						<h1 className="text-primary fw-bold display-3">{title}</h1>
-						<p>{description}</p>
 						<div className="text-center">
+							<h1 className="text-primary fw-bold display-3">{title}</h1>
+							<p>{description}</p>
 							{buttons.map((value, index) => (
 								(value.isPrimary) ?
 									<Link key={index} href={value.link}>
@@ -29,7 +29,7 @@ export const Intro = ({ title, description, image, buttons }) => {
 						<img
 							className="img-fluid my-3 card-image" width="250"
 							height="250" src={publicRuntimeConfig.basePath + image}
-							alt="profile of hashirshoaeb"
+							alt="profile of michaelxiao7"
 						/>
 					</div>
 				</div>
