@@ -17,8 +17,6 @@
     "start": "next start",
     "export": "next export",
     "predeploy": "npm run build && npm run export && touch ./out/.nojekyll",
-    "deploy": "npm run custom-domain && node scripts/pages.js michaelxiao7 master",
-    "custom-domain": "node scripts/cname.js michaelxiao7.com www.michaelxiao7.com",
     "lint": "next lint"
   },
   "dependencies": {
