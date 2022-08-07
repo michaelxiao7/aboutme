@@ -45,7 +45,7 @@ export const intro = {
 export const about = {
 	title: "This is me",
 	description: [
-		"I graduated from Gordon College in 2022 with a bachelors degree in Computer Science and Mathematics. I am currently a Software Engineer specializing in Backend, and I kickstarted my career by joining Citrix, a company leading the tech industry in Virtual Client Computing (VCC) and Virtual Desktop Infrastructure (VDI).",
+		"I graduated from Gordon College in 2022 with a bachelors degree in Computer Science and Mathematics. I am currently a Software Engineer specializing in Backend, and I kickstarted my career by joining Citrix, a company leading the tech industry in both Virtual Client Computing (VCC) and Virtual Desktop Infrastructure (VDI).",
 		"I am passionate about computing, mathematics, understanding the problems that they are able to solve, and learning about popular trends within the tech industry. Sporting a smile and an uplifting attitude, I am constantly looking for opportunities to work with others. I aspire to learn and achieve excellence in any field and would love to bring you along on my journey!",
 		"When I’m not programming, I enjoy cooking and baking, playing sports, gaming, and hanging out with friends.",
 	],
