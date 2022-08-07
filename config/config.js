@@ -26,7 +26,7 @@ export const navigation = {
 }
 export const intro = {
 	title: "Hello! I'm Michael",
-	description: "A Software Engineer producing highly optimized and scalable code.",
+	description: "A Software Engineer writing highly optimized and scalable code.",
 	image: profile.src,
 	buttons: [
 		{
